@@ -8,7 +8,7 @@ import {
   LoadingBar
 } from 'iview'
 
-import store from '../store/index.js'//
+import store from '../store/index.js'
 
 
 Vue.use(VueRouter)
@@ -1189,7 +1189,7 @@ const router = new VueRouter({
     icon: 'key',
     name: 'main',
     title: '个人信息',
-    redirect: 'loginUserInfo'
+    redirect: 'loginUserInfo',//重定向路由
   },
   ...appRouter,
   ...demoRouter,
